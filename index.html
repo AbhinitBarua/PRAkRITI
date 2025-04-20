@@ -1,11 +1,193 @@
-<html>
-    <head>
-        <title>PRAkRITI - Reshaping Environment</title>
-        <link rel="icon" type="image/jpg" href="prakriti.jpg"></link>
-        <link rel="stylesheet" href="styles.css"></link>
-    </head>
-    <body bgcolor="white">
-        <center><h1>WELCOME TO PRAkRITI</h1></center>
-        <center><button class="button-86" role="button">Donate</button>  <br>    <button class="button-86" role="button">Try PRAkRITI</button></center>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PRAkRITI - Advanced Environmental App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-green-50 font-montserrat text-gray-800">
+  <header class="bg-green-900 text-white shadow-md">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-3xl font-bold tracking-wide">PRAkRITI</h1>
+      <nav>
+        <ul class="flex space-x-6 text-lg">
+          <li><a href="#features" class="hover:text-green-300 transition">Features</a></li>
+          <li><a href="#disease-detection" class="hover:text-green-300 transition">Disease Detection</a></li>
+          <li><a href="#contact" class="hover:text-green-300 transition">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero bg-green-100 py-20 text-center px-6">
+    <h2 class="text-5xl font-extrabold mb-4 text-green-900">Welcome to PRAkRITI</h2>
+    <p class="text-xl max-w-3xl mx-auto mb-8">
+      Your ultimate environmental app for advanced plant care, management, and sustainability.
+    </p>
+    <a href="#features" class="inline-block bg-green-700 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-green-800 transition">
+      Explore Features
+    </a>
+  </section>
+
+  <main class="container mx-auto px-6 py-12 max-w-7xl">
+    <section id="features" class="mb-16">
+      <h3 class="text-4xl font-bold mb-8 border-b-4 border-green-700 inline-block pb-2">App Features</h3>
+
+      <article class="mb-12">
+        <h4 class="text-2xl font-semibold mb-4 text-green-800 flex items-center gap-3">
+          <i class="fas fa-seedling text-green-600"></i> Advanced Plant Care & Management Features
+        </h4>
+        <ul class="list-disc list-inside space-y-2 text-lg">
+          <li>AI-Powered Growth Predictions – Predict future growth, health, and flowering based on historical data.</li>
+          <li>Soil Health Monitoring – Monitor soil quality over time, including pH, moisture levels, and nutrient content.</li>
+          <li>Customizable Plant Profiles – Create detailed profiles for each plant, including planting date, care routines, and photos.</li>
+          <li>Plant Genetic Tracker – Track genetic lineage and history for rare or hybrid plants.</li>
+          <li>Advanced Pest & Disease Recognition – AI-based image recognition to detect pests and plant diseases from photos and suggest remedies.</li>
+          <li>Integrated Composting Guide – Help users set up and manage composting systems.</li>
+          <li>Hydroponics & Aquaponics Management – Care for hydroponic and aquaponic systems with nutrient and water cycling monitoring.</li>
+          <li>Plant Pollinator Tracker – Track and identify pollinators like bees and butterflies to enhance biodiversity.</li>
+          <li>Live Growth Tracking with Cameras – Integrate live camera feeds for real-time plant monitoring.</li>
+        </ul>
+      </article>
+
+      <article class="mb-12">
+        <h4 class="text-2xl font-semibold mb-4 text-green-800 flex items-center gap-3">
+          <i class="fas fa-users text-green-600"></i> Social & Collaborative Features
+        </h4>
+        <ul class="list-disc list-inside space-y-2 text-lg">
+          <li>Collaborative Gardens – Create and share gardens with friends or family for joint plant care.</li>
+          <li>Plant Event Calendar – Track plant-related events like shows, swaps, and expert talks.</li>
+          <li>Crowd-Sourced Plant Database – Add new plants, photos, and care info to grow the app’s resource base.</li>
+          <li>Plant Care Reviews & Ratings – Rate care methods to build a community-driven guide.</li>
+          <li>Plant Sharing & Gifting – Exchange plants or seeds with nearby users through an integrated marketplace.</li>
+          <li>Geo-Tagged Plant Locations – Share locations of plants found in the wild or public spaces.</li>
+        </ul>
+      </article>
+
+      <article class="mb-12">
+        <h4 class="text-2xl font-semibold mb-4 text-green-800 flex items-center gap-3">
+          <i class="fas fa-flask text-green-600"></i> Scientific Features
+        </h4>
+        <ul class="list-disc list-inside space-y-2 text-lg">
+          <li>Plant Growth Optimization Algorithm – Machine learning recommendations for best care practices.</li>
+          <li>Nutrient Deficiency Finder – Identify nutrient deficiencies through images or inputs and provide solutions.</li>
+          <li>Plant DNA Library – Store and analyze DNA data for genetic research and care improvement.</li>
+          <li>Environmental Impact Tracker – Track and reduce water usage and carbon footprint from plant care.</li>
+          <li>Biofeedback Monitoring for Plants – Detect stress or health changes via plant biofeedback.</li>
+          <li>Photosynthesis Efficiency Tracker – Measure photosynthesis effectiveness in indoor plants.</li>
+        </ul>
+      </article>
+
+      <article class="mb-12">
+        <h4 class="text-2xl font-semibold mb-4 text-green-800 flex items-center gap-3">
+          <i class="fas fa-bell text-green-600"></i> Enhanced Reminders & Notifications
+        </h4>
+        <ul class="list-disc list-inside space-y-2 text-lg">
+          <li>Custom Care Routine Templates – Create personalized plant care routines.</li>
+          <li>AI-Powered Environmental Alerts – Real-time notifications for off-environment conditions.</li>
+          <li>Multiple Reminder Layers – Daily, weekly, and monthly reminders with different tones.</li>
+          <li>Smart Alarm for Over-Watering – Alerts for over-watering based on soil moisture.</li>
+          <li>Emergency Alerts – Notifications for plant health decline or extreme conditions.</li>
+        </ul>
+      </article>
+
+      <article class="mb-12">
+        <h4 class="text-2xl font-semibold mb-4 text-green-800 flex items-center gap-3">
+          <i class="fas fa-leaf text-green-600"></i> Sustainability & Eco-Friendly Features
+        </h4>
+        <ul class="list-disc list-inside space-y-2 text-lg">
+          <li>Eco-Friendly Plant Care Tips – Sustainable advice like natural fertilizers and eco pots.</li>
+          <li>Water Conservation Guide – Tips to reduce water consumption in plant care.</li>
+          <li>Greenhouse Design & Management – Build and manage greenhouses and gardens.</li>
+          <li>Recycling Plants – Donate or recycle plants when no longer cared for.</li>
+          <li>Carbon Offset Tracker – Track CO2 offset by your plants.</li>
+          <li>Sustainable Plant Purchase Recommendations – Eco-friendly, local plant suggestions.</li>
+        </ul>
+      </article>
+
+      <article class="mb-12">
+        <h4 class="text-2xl font-semibold mb-4 text-green-800 flex items-center gap-3">
+          <i class="fas fa-plug text-green-600"></i> Advanced Integration Features
+        </h4>
+        <ul class="list-disc list-inside space-y-2 text-lg">
+          <li>Smart Home Integration – Sync with Nest, Philips Hue, Amazon Echo for automation.</li>
+          <li>IoT Plant Sensors – Real-time data from soil moisture, humidity sensors.</li>
+          <li>Smart Planter Integration – Sync with self-watering planters and smart pots.</li>
+          <li>Cloud-based Plant Care Sync – Sync data across devices with cloud backup.</li>
+          <li>Wearable Plant Care Assistant – Notifications and tracking via smartwatches.</li>
+          <li>Plant Care for Vacation Mode – Auto-adjust care routines when away.</li>
+        </ul>
+      </article>
+
+      <article class="mb-12">
+        <h4 class="text-2xl font-semibold mb-4 text-green-800 flex items-center gap-3">
+          <i class="fas fa-chart-line text-green-600"></i> Plant Data Analytics
+        </h4>
+        <ul class="list-disc list-inside space-y-2 text-lg">
+          <li>Advanced Plant Growth Analytics – Graphs and data tracking growth over time.</li>
+          <li>AI Plant Growth Predictor – Predict future growth based on data and environment.</li>
+          <li>Watering Efficiency Stats – Track water usage and effects on plant health.</li>
+          <li>Fertilizer Effectiveness Tracker – Measure fertilizer impact over time.</li>
+          <li>Pollution Impact Tracking – Measure air quality effects and recommend solutions.</li>
+        </ul>
+      </article>
+
+      <article class="mb-12">
+        <h4 class="text-2xl font-semibold mb-4 text-green-800 flex items-center gap-3">
+          <i class="fas fa-trophy text-green-600"></i> Gamification & Motivation Features
+        </h4>
+        <ul class="list-disc list-inside space-y-2 text-lg">
+          <li>Plant Growth Achievements – Unlock milestones like “Flowering Expert” and “Master Gardener”.</li>
+          <li>Plant Care Challenges – Monthly/weekly challenges to motivate care routines.</li>
+          <li>Leaderboard for Best Gardens – Showcase top gardens worldwide.</li>
+          <li>Plant Care Leaderboards – Rankings and rewards for care performance.</li>
+          <li>Rewards & Loyalty Program – Earn points redeemable for discounts or premium features.</li>
+        </ul>
+      </article>
+
+      <article class="mb-12">
+        <h4 class="text-2xl font-semibold mb-4 text-green-800 flex items-center gap-3">
+          <i class="fas fa-mobile-alt text-green-600"></i> App Experience Features
+        </h4>
+        <ul class="list-disc list-inside space-y-2 text-lg">
+          <li>Personalized Plant Care Dashboard – Customizes tasks, reminders, and news.</li>
+          <li>User-Centric Plant Recommendations – Suggest plants based on location and preferences.</li>
+          <li>Interactive Plant Maps – Show species distribution with care guides.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="disease-detection" class="mb-16 bg-green-200 rounded-lg p-8 shadow-lg">
+      <h3 class="text-4xl font-bold mb-6 border-b-4 border-green-700 inline-block pb-2 text-green-900">
+        Disease Detection Feature
+      </h3>
+      <p class="text-lg mb-4">
+        PRAkRITI can detect diseases from plant images using AI-based image recognition and provide effective solutions to keep your plants healthy.
+      </p>
+      <div class="flex flex-col md:flex-row md:items-center md:gap-8">
+        <div class="md:w-1/2 mb-6 md:mb-0">
+          <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=600&q=80" alt="Plant Disease Detection" class="rounded-lg shadow-md" />
+        </div>
+        <div class="md:w-1/2 text-lg">
+          <ul class="list-disc list-inside space-y-2">
+            <li>Upload a photo of your plant to detect diseases quickly.</li>
+            <li>Get detailed information about the disease and symptoms.</li>
+            <li>Receive recommended remedies and care tips to treat the disease.</li>
+            <li>Track disease history and prevention tips for your plants.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="bg-green-900 text-white py-6 text-center">
+    <p>© 2024 PRAkRITI. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
