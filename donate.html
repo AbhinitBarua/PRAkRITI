@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRAkRITI AI - Donate Plant Images</title>
+    <link rel="stylesheet" href="donate.css">
+    <link rel="icon" type="image/jpg" href="prakriti.jpg"
+</head>
+<body>
+    <!-- Hero Section with Parallax -->
+    <section id="hero" class="parallax">
+        <div class="parallax-content">
+            <h1>Help Train PRAkRITI AI</h1>
+            <p>Your plant images contribute to the future of sustainable agriculture and biodiversity conservation</p>
+            <a href="#donate" class="btn">Donate Images</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="info-card">
+                <h2>About PRAkRITI AI</h2>
+                <p>PRAkRITI AI is an innovative artificial intelligence model designed to identify, classify, and analyze plant species to support conservation efforts and sustainable agriculture practices.</p>
+                <p>By donating your plant images, you're helping to create a more accurate and comprehensive AI system that can identify rare species, track biodiversity changes, and support ecological research worldwide.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section with Parallax -->
+    <section id="features" class="parallax">
+        <div class="parallax-content">
+            <h2>Why Your Contribution Matters</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">🌱</div>
+                    <h3>Biodiversity Protection</h3>
+                    <p>Help identify endangered plant species</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔬</div>
+                    <h3>Scientific Research</h3>
+                    <p>Support botanical research and discoveries</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Global Impact</h3>
+                    <p>Contribute to sustainability efforts worldwide</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">⚡</div>
+                    <h3>AI Advancement</h3>
+                    <p>Push the boundaries of AI technology</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Form Section -->
+    <section id="donate">
+        <div class="container">
+            <div class="form-container">
+                <h2>Donate Your Plant Images</h2>
+                <p>Fill out the form below to contribute your plant images to the PRAkRITI AI database.</p>
+                
+                <form action="process.php" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="description">Plant Description</label>
+                        <textarea id="description" name="description" rows="4" placeholder="Please describe the plant species, location, or any other relevant information"></textarea>
+                    </div>
+                    
+                    <div class="form-group file-upload">
+                        <label for="plant-image">Choose Plant Image(s)</label>
+                        <input type="file" id="plant-image" name="plant_image[]" accept="image/*" multiple required>
+                        <div class="file-preview" id="file-preview">
+                            <p>No files selected</p>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group consent">
+                        <input type="checkbox" id="consent" name="consent" required>
+                        <label for="consent">I consent to my images being used for training the PRAkRITI AI model</label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-submit">Submit Images</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>PRAkRITI AI</h3>
+                    <p>Advancing nature conservation through artificial intelligence</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#donate">Donate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>Email: abhinitinspace@gmail.com</p>
+                    <p>Phone: +91 910 115 6577</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 PRAkRITI AI Project. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="donate.js"></script>
+</body>
+</html>
