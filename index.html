@@ -1,154 +1,253 @@
-<!-- Add this to your head section -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRAkRITI - Advanced Plant Care & Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="/api/placeholder/80/80" alt="PRAkRITI Logo" class="logo">
+                <h1>PRAkRITI</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#disease-detection">Disease Detection</a></li>
+                <li><a href="#social">Community</a></li>
+                <li><a href="#analytics">Analytics</a></li>
+                <li><a href="#download">Download</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
 
-<!-- Enhanced hero section with animated background elements -->
-<section class="hero">
-    <div class="hero-bg-elements">
-        <div class="bg-circle circle1"></div>
-        <div class="bg-circle circle2"></div>
-        <div class="bg-circle circle3"></div>
-        <div class="leaf leaf1"><i class="fas fa-leaf"></i></div>
-        <div class="leaf leaf2"><i class="fas fa-seedling"></i></div>
-        <div class="leaf leaf3"><i class="fas fa-leaf"></i></div>
-    </div>
-    <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
-        <h1>Nurture Your <span class="text-gradient">Green World</span></h1>
-        <p>The ultimate AI-powered plant care companion for all your gardening needs</p>
-        <div class="cta-buttons">
-            <a href="#download" class="btn primary">
-                <span>Download Now</span>
-                <i class="fas fa-arrow-right"></i>
-            </a>
-            <a href="#features" class="btn secondary">Explore Features</a>
-        </div>
-        <div class="hero-stats">
-            <div class="stat">
-                <span class="stat-number">10K+</span>
-                <span class="stat-label">Users</span>
-            </div>
-            <div class="stat">
-                <span class="stat-number">1M+</span>
-                <span class="stat-label">Plants</span>
-            </div>
-            <div class="stat">
-                <span class="stat-number">98%</span>
-                <span class="stat-label">Satisfaction</span>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Nurture Your Green World</h1>
+            <p>The ultimate AI-powered plant care companion for all your gardening needs</p>
+            <div class="cta-buttons">
+                <a href="#download" class="btn primary">Download Now</a>
+                <a href="#features" class="btn secondary">Explore Features</a>
             </div>
         </div>
-    </div>
-    <div class="hero-image" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-        <div class="phone-mockup">
+        <div class="hero-image">
             <img src="/api/placeholder/500/600" alt="PRAkRITI App Preview" class="app-preview">
-            <div class="phone-glare"></div>
         </div>
-        <div class="floating-icons">
-            <div class="floating-icon"><i class="fas fa-leaf"></i></div>
-            <div class="floating-icon"><i class="fas fa-tint"></i></div>
-            <div class="floating-icon"><i class="fas fa-sun"></i></div>
-            <div class="floating-icon"><i class="fas fa-seedling"></i></div>
-        </div>
-    </div>
-</section>
+    </section>
 
-<!-- Enhanced features section with counters -->
-<section id="features" class="features-section">
-    <div class="section-intro" data-aos="fade-up">
-        <span class="pre-title">What We Offer</span>
+    <section id="features" class="features-section">
         <h2>Advanced Plant Care & Management</h2>
-        <p class="section-description">Our powerful features help you manage your plants with precision and ease</p>
-    </div>
-    <div class="features-grid">
-        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-            <div class="feature-icon-wrapper">
+        <div class="features-grid">
+            <div class="feature-card">
                 <i class="fas fa-brain"></i>
+                <h3>AI-Powered Growth Predictions</h3>
+                <p>Predict future growth, health, and flowering based on historical data.</p>
             </div>
-            <h3>AI-Powered Growth Predictions</h3>
-            <p>Predict future growth, health, and flowering based on historical data.</p>
-            <a href="#" class="feature-link">Learn more <i class="fas fa-chevron-right"></i></a>
+            <div class="feature-card">
+                <i class="fas fa-seedling"></i>
+                <h3>Soil Health Monitoring</h3>
+                <p>Monitor soil quality over time, including pH, moisture levels, and nutrient content.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-id-card"></i>
+                <h3>Customizable Plant Profiles</h3>
+                <p>Create detailed profiles for each plant, including planting date, care routines, and photos.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-dna"></i>
+                <h3>Plant Genetic Tracker</h3>
+                <p>Track genetic lineage and history for rare or hybrid plants.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-bug"></i>
+                <h3>Advanced Pest & Disease Recognition</h3>
+                <p>AI-based image recognition to detect pests and plant diseases from photos and suggest remedies.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-recycle"></i>
+                <h3>Integrated Composting Guide</h3>
+                <p>Help setting up your own composting system and manage plant waste.</p>
+            </div>
         </div>
-        <!-- Repeat for other feature cards with different delays -->
-    </div>
-    <div class="section-counters" data-aos="fade-up">
-        <div class="counter">
-            <div class="counter-number" data-count="1000">0</div>
-            <div class="counter-label">Plant Species</div>
-        </div>
-        <div class="counter">
-            <div class="counter-number" data-count="250">0</div>
-            <div class="counter-label">Disease Detections</div>
-        </div>
-        <div class="counter">
-            <div class="counter-number" data-count="500">0</div>
-            <div class="counter-label">Care Tips</div>
-        </div>
-        <div class="counter">
-            <div class="counter-number" data-count="50">0</div>
-            <div class="counter-label">Countries</div>
-        </div>
-    </div>
-</section>
+    </section>
 
-<!-- Enhanced disease detection section with interactive elements -->
-<section id="disease-detection" class="disease-section">
-    <div class="disease-content" data-aos="fade-right">
-        <span class="pre-title">Plant Doctor</span>
-        <h2>Plant Disease Detection</h2>
-        <p>Upload a photo of your plant and our advanced AI will identify diseases and provide treatment recommendations instantly.</p>
-        <div class="disease-steps">
-            <div class="step">
-                <div class="step-number">1</div>
-                <div class="step-content">
-                    <h4>Take Photo</h4>
-                    <p>Capture a clear image of the affected plant part</p>
+    <section id="disease-detection" class="disease-section">
+        <div class="disease-content">
+            <h2>Plant Disease Detection</h2>
+            <p>Upload a photo of your plant and our advanced AI will identify diseases and provide treatment recommendations instantly.</p>
+            <ul class="disease-features">
+                <li><i class="fas fa-check-circle"></i> Identify diseases from a single image</li>
+                <li><i class="fas fa-check-circle"></i> Receive immediate treatment recommendations</li>
+                <li><i class="fas fa-check-circle"></i> Access our database of 1000+ plant diseases</li>
+                <li><i class="fas fa-check-circle"></i> Track treatment progress over time</li>
+                <li><i class="fas fa-check-circle"></i> Get preventive care recommendations</li>
+            </ul>
+            <div class="upload-demo">
+                <div class="upload-placeholder">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>Try it now! Upload a plant image</p>
                 </div>
-            </div>
-            <div class="step">
-                <div class="step-number">2</div>
-                <div class="step-content">
-                    <h4>AI Analysis</h4>
-                    <p>Our AI processes and identifies the issue</p>
-                </div>
-            </div>
-            <div class="step">
-                <div class="step-number">3</div>
-                <div class="step-content">
-                    <h4>Get Treatment</h4>
-                    <p>Receive customized treatment recommendations</p>
-                </div>
+                <button class="btn primary">Analyze Plant</button>
             </div>
         </div>
-        <div class="upload-demo" data-aos="fade-up">
-            <div class="upload-placeholder">
-                <i class="fas fa-cloud-upload-alt"></i>
-                <p>Try it now! Upload a plant image</p>
-                <span class="upload-hint">Click here to simulate upload</span>
-            </div>
-            <button class="btn primary">Analyze Plant</button>
-        </div>
-    </div>
-    <div class="disease-image" data-aos="fade-left" data-aos-delay="300">
-        <div class="disease-demo-wrapper">
+        <div class="disease-image">
             <img src="/api/placeholder/500/500" alt="Disease Detection Demo" class="disease-demo">
-            <div class="detection-indicators">
-                <div class="indicator" style="top: 25%; left: 30%;">
-                    <div class="indicator-dot"></div>
-                    <div class="indicator-label">Leaf spot</div>
+        </div>
+    </section>
+
+    <section id="social" class="social-section">
+        <h2>Social & Collaborative Features</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-users"></i>
+                <h3>Collaborative Gardens</h3>
+                <p>Create and share gardens with friends or family for joint plant care.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-calendar-alt"></i>
+                <h3>Plant Event Calendar</h3>
+                <p>Track plant-related events such as plant shows, swaps, or expert talks.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-database"></i>
+                <h3>Crowd-Sourced Plant Database</h3>
+                <p>Contribute to our growing resource of plants, photos, and care information.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-star"></i>
+                <h3>Plant Care Reviews & Ratings</h3>
+                <p>Rate how well care methods worked for different plants, creating a community-driven guide.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="analytics" class="analytics-section">
+        <div class="analytics-image">
+            <img src="/api/placeholder/500/400" alt="Analytics Dashboard Preview" class="analytics-preview">
+        </div>
+        <div class="analytics-content">
+            <h2>Plant Data Analytics</h2>
+            <p>Track your plants' growth and health with sophisticated analytics tools.</p>
+            <div class="analytics-features">
+                <div class="analytics-feature">
+                    <i class="fas fa-chart-line"></i>
+                    <div>
+                        <h3>Advanced Plant Growth Analytics</h3>
+                        <p>Track how your plants are growing over time and under different conditions.</p>
+                    </div>
                 </div>
-                <div class="indicator" style="top: 55%; left: 70%;">
-                    <div class="indicator-dot"></div>
-                    <div class="indicator-label">Early blight</div>
+                <div class="analytics-feature">
+                    <i class="fas fa-tint"></i>
+                    <div>
+                        <h3>Watering Efficiency Stats</h3>
+                        <p>Track water usage and its effect on plant health.</p>
+                    </div>
+                </div>
+                <div class="analytics-feature">
+                    <i class="fas fa-flask"></i>
+                    <div>
+                        <h3>Fertilizer Effectiveness Tracker</h3>
+                        <p>Measure how different fertilizers impact plant growth and health.</p>
+                    </div>
+                </div>
+                <div class="analytics-feature">
+                    <i class="fas fa-cloud"></i>
+                    <div>
+                        <h3>Environmental Impact Tracker</h3>
+                        <p>Track and reduce your environmental impact, including water usage and carbon footprint.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Add this before closing body tag -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<script>
-  AOS.init({
-    once: true,
-    offset: 100,
-    duration: 800
-  });
-</script>
+    <section id="download" class="download-section">
+        <h2>Download PRAkRITI Today</h2>
+        <p>Start your journey towards better plant care and a greener environment</p>
+        <div class="download-buttons">
+            <a href="#" class="store-button">
+                <i class="fab fa-apple"></i>
+                <div class="store-text">
+                    <span>Download on the</span>
+                    <span class="store-name">App Store</span>
+                </div>
+            </a>
+            <a href="#" class="store-button">
+                <i class="fab fa-google-play"></i>
+                <div class="store-text">
+                    <span>Get it on</span>
+                    <span class="store-name">Google Play</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="/api/placeholder/60/60" alt="PRAkRITI Logo" class="logo-small">
+                <h3>PRAkRITI</h3>
+                <p>Nurturing plants, nurturing life</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-column">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Premium</a></li>
+                        <li><a href="#">Business</a></li>
+                    </ul>
+                </div>
+                <div class="link-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="link-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Plant Database</a></li>
+                    </ul>
+                </div>
+                <div class="link-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Licenses</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 PRAkRITI. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
